@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+        <ProjectGuid>{C93E2B95-9DE5-4A76-9BF9-BC21EDB83CA7}</ProjectGuid>
+        <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+        <OutputType>Library</OutputType>
+        <RootNamespace>MvvmCross.Plugins.TextSelection.Droid</RootNamespace>
+        <AssemblyName>MvvmCross.Plugins.TextSelection.Droid</AssemblyName>
+        <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
+        <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+        <AndroidResgenClass>Resource</AndroidResgenClass>
+        <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+        <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+        <AndroidUseLatestPlatformSdk>true</AndroidUseLatestPlatformSdk>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>full</DebugType>
+        <Optimize>false</Optimize>
+        <OutputPath>bin\Debug</OutputPath>
+        <DefineConstants>DEBUG;</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+        <AndroidLinkMode>None</AndroidLinkMode>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>pdbonly</DebugType>
+        <Optimize>true</Optimize>
+        <OutputPath>bin\Release</OutputPath>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+        <AndroidManagedSymbols>true</AndroidManagedSymbols>
+        <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    </PropertyGroup>
+    <ItemGroup>
+        <Reference Include="System" />
+        <Reference Include="System.Xml" />
+        <Reference Include="System.Core" />
+        <Reference Include="Mono.Android" />
+        <Reference Include="MvvmCross.Platform">
+            <HintPath>..\..\packages\MvvmCross.Platform.5.7.0\lib\MonoAndroid\MvvmCross.Platform.dll</HintPath>
+        </Reference>
+        <Reference Include="MvvmCross.Platform.Droid">
+            <HintPath>..\..\packages\MvvmCross.Platform.5.7.0\lib\MonoAndroid\MvvmCross.Platform.Droid.dll</HintPath>
+        </Reference>
+        <Reference Include="MvvmCross.Core">
+            <HintPath>..\..\packages\MvvmCross.Core.5.7.0\lib\MonoAndroid\MvvmCross.Core.dll</HintPath>
+        </Reference>
+        <Reference Include="MvvmCross.Droid">
+            <HintPath>..\..\packages\MvvmCross.Core.5.7.0\lib\MonoAndroid\MvvmCross.Droid.dll</HintPath>
+        </Reference>
+        <Reference Include="MvvmCross.Binding">
+            <HintPath>..\..\packages\MvvmCross.Binding.5.7.0\lib\MonoAndroid\MvvmCross.Binding.dll</HintPath>
+        </Reference>
+        <Reference Include="MvvmCross.Binding.Droid">
+            <HintPath>..\..\packages\MvvmCross.Binding.5.7.0\lib\MonoAndroid\MvvmCross.Binding.Droid.dll</HintPath>
+        </Reference>
+        <Reference Include="MvvmCross.Localization">
+            <HintPath>..\..\packages\MvvmCross.Binding.5.7.0\lib\MonoAndroid\MvvmCross.Localization.dll</HintPath>
+        </Reference>
+        <Reference Include="Mono.Android.Export" />
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Include="Resources\Resource.designer.cs" />
+        <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="MvxEditText.cs" />
+        <Compile Include="Binding\MvxAndroidTextSelectionPropertyBinding.cs" />
+        <Compile Include="Binding\MvxAndroidTextSelectionPropertyBindingExtensions.cs" />
+        <Compile Include="BindingTargets\MvxEditTextSelectionTargetBinding.cs" />
+        <Compile Include="Plugin.cs" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="Resources\AboutResources.txt" />
+        <None Include="packages.config" />
+    </ItemGroup>
+    <ItemGroup>
+        <Folder Include="Binding\" />
+        <Folder Include="BindingTargets\" />
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\MvvmCross.Plugins.TextSelection\MvvmCross.Plugins.TextSelection.csproj">
+            <Project>{60E10BD3-DB9F-4CCB-9B12-C9799D7E7BCE}</Project>
+            <Name>MvvmCross.Plugins.TextSelection</Name>
+        </ProjectReference>
+    </ItemGroup>
+    <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+</Project>
