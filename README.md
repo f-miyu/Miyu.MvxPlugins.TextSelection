@@ -4,7 +4,7 @@ This MvvmCross plugin provides tow-way data binding for cursor position in UITex
 ### Android
 `MvxEditText` has `Selection` that is binding for cursor position.
 ```xml
-<mvvmcross.plugins.textSelection.droid.MvxEditText
+<mvvmcross.plugins.textselection.droid.MvxEditText
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     local:MvxBind="Text Text; Selection Selection" />
