@@ -6,7 +6,7 @@ using Android.Widget;
 
 namespace MvvmCross.Plugins.TextSelection.Droid
 {
-    [Register("mvvmCross.plugins.textSelection.droid.MvxEditText")]
+    [Register("mvvmcross.plugins.textselection.droid.MvxEditText")]
     public class MvxEditText : EditText
     {
         public event EventHandler SelectionChanged;
@@ -20,6 +20,10 @@ namespace MvvmCross.Plugins.TextSelection.Droid
         }
 
         public MvxEditText(Context context, IAttributeSet attrs, int defStyle) : base(context, attrs, defStyle)
+        {
+        }
+
+        protected MvxEditText(IntPtr javaReference, JniHandleOwnership transfer) : base(javaReference, transfer)
         {
         }
 
