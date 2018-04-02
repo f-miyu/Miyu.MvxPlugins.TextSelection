@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>MvvmCross.Plugins.TextSelection</id>
+		<version>1.0.0</version>
+		<title>MvvmCross - TextSelection Plugin</title>
+		<authors>f-miyu</authors>
+		<licenseUrl>https://github.com/f-miyu/MvvmCross.Plugins.TextSelection/blob/master/LICENSE</licenseUrl>
+		<projectUrl>https://github.com/f-miyu/MvvmCross.Plugins.TextSelection</projectUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>This package contains the 'TextSelection' plugin for MvvmCross</description>
+		<tags>mvvm mvvmcross cross xamarin android ios monodroid monotouch xamarin.android xamarin.ios plugin</tags>
+		<dependencies>
+			<dependency id="MvvmCross.Binding" version="5.7.0" />
+		</dependencies>
+	</metadata>
+	<files>
+		<!-- droid -->
+		<file src="..\TextSelection\MvvmCross.Plugins.TextSelection\bin\Release\MvvmCross.Plugins.TextSelection.dll" target="lib/MonoAndroid" />
+		<file src="..\TextSelection\MvvmCross.Plugins.TextSelection.Droid\bin\Release\MvvmCross.Plugins.TextSelection.dll" target="lib/MonoAndroid" />
+		<file src="BootstrapContent\TextSelectionPluginBootstrap.cs.pp" target="content/MonoAndroid/Bootstrap/TextSelectionPluginBootstrap.cs.pp" />
+
+		<!-- iOS -->
+		<file src="..\TextSelection\MvvmCross.Plugins.TextSelection\bin\Release\MvvmCross.Plugins.TextSelection.dll" target="lib/Xamarin.iOS10" />
+		<file src="..\TextSelection\MvvmCross.Plugins.TextSelection.iOS\bin\Release\MvvmCross.Plugins.TextSelection.dll" target="lib/Xamarin.iOS10" />
+		<file src="iOSBootstrapContent\TextSelectionPluginBootstrap.cs.pp" target="content/Xamarin.iOS10/Bootstrap/TextSelectionPluginBootstrap.cs.pp" />
+
+	</files>
+</package>
