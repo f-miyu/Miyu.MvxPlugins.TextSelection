@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("MvvmCross.Plugins.TextSelection.Sample.Droid.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("Miyu.MvxPlugins.TextSelection.Sample.Droid.Resource", IsApplication=true)]
 
-namespace MvvmCross.Plugins.TextSelection.Sample.Droid
+namespace Miyu.MvxPlugins.TextSelection.Sample.Droid
 {
 	
 	
@@ -26,27 +26,49 @@ namespace MvvmCross.Plugins.TextSelection.Sample.Droid
 		
 		public static void UpdateIdValues()
 		{
-			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxBind = global::MvvmCross.Plugins.TextSelection.Sample.Droid.Resource.Attribute.MvxBind;
-			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxDropDownItemTemplate = global::MvvmCross.Plugins.TextSelection.Sample.Droid.Resource.Attribute.MvxDropDownItemTemplate;
-			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxGroupItemTemplate = global::MvvmCross.Plugins.TextSelection.Sample.Droid.Resource.Attribute.MvxGroupItemTemplate;
-			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxItemTemplate = global::MvvmCross.Plugins.TextSelection.Sample.Droid.Resource.Attribute.MvxItemTemplate;
-			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxLang = global::MvvmCross.Plugins.TextSelection.Sample.Droid.Resource.Attribute.MvxLang;
-			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxSource = global::MvvmCross.Plugins.TextSelection.Sample.Droid.Resource.Attribute.MvxSource;
-			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxTemplate = global::MvvmCross.Plugins.TextSelection.Sample.Droid.Resource.Attribute.MvxTemplate;
-			global::MvvmCross.Binding.Droid.Resource.Id.MvvmCrossTagId = global::MvvmCross.Plugins.TextSelection.Sample.Droid.Resource.Id.MvvmCrossTagId;
-			global::MvvmCross.Binding.Droid.Resource.Id.MvxBindingTagUnique = global::MvvmCross.Plugins.TextSelection.Sample.Droid.Resource.Id.MvxBindingTagUnique;
-			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxBinding = global::MvvmCross.Plugins.TextSelection.Sample.Droid.Resource.Styleable.MvxBinding;
-			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxBinding_MvxBind = global::MvvmCross.Plugins.TextSelection.Sample.Droid.Resource.Styleable.MvxBinding_MvxBind;
-			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxBinding_MvxLang = global::MvvmCross.Plugins.TextSelection.Sample.Droid.Resource.Styleable.MvxBinding_MvxLang;
-			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxControl = global::MvvmCross.Plugins.TextSelection.Sample.Droid.Resource.Styleable.MvxControl;
-			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxControl_MvxTemplate = global::MvvmCross.Plugins.TextSelection.Sample.Droid.Resource.Styleable.MvxControl_MvxTemplate;
-			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxExpandableListView = global::MvvmCross.Plugins.TextSelection.Sample.Droid.Resource.Styleable.MvxExpandableListView;
-			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate = global::MvvmCross.Plugins.TextSelection.Sample.Droid.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate;
-			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxImageView = global::MvvmCross.Plugins.TextSelection.Sample.Droid.Resource.Styleable.MvxImageView;
-			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxImageView_MvxSource = global::MvvmCross.Plugins.TextSelection.Sample.Droid.Resource.Styleable.MvxImageView_MvxSource;
-			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxListView = global::MvvmCross.Plugins.TextSelection.Sample.Droid.Resource.Styleable.MvxListView;
-			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate = global::MvvmCross.Plugins.TextSelection.Sample.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate;
-			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxListView_MvxItemTemplate = global::MvvmCross.Plugins.TextSelection.Sample.Droid.Resource.Styleable.MvxListView_MvxItemTemplate;
+			global::Miyu.MvxPlugins.TextSelection.Droid.Resource.Attribute.MvxBind = global::Miyu.MvxPlugins.TextSelection.Sample.Droid.Resource.Attribute.MvxBind;
+			global::Miyu.MvxPlugins.TextSelection.Droid.Resource.Attribute.MvxDropDownItemTemplate = global::Miyu.MvxPlugins.TextSelection.Sample.Droid.Resource.Attribute.MvxDropDownItemTemplate;
+			global::Miyu.MvxPlugins.TextSelection.Droid.Resource.Attribute.MvxGroupItemTemplate = global::Miyu.MvxPlugins.TextSelection.Sample.Droid.Resource.Attribute.MvxGroupItemTemplate;
+			global::Miyu.MvxPlugins.TextSelection.Droid.Resource.Attribute.MvxItemTemplate = global::Miyu.MvxPlugins.TextSelection.Sample.Droid.Resource.Attribute.MvxItemTemplate;
+			global::Miyu.MvxPlugins.TextSelection.Droid.Resource.Attribute.MvxLang = global::Miyu.MvxPlugins.TextSelection.Sample.Droid.Resource.Attribute.MvxLang;
+			global::Miyu.MvxPlugins.TextSelection.Droid.Resource.Attribute.MvxSource = global::Miyu.MvxPlugins.TextSelection.Sample.Droid.Resource.Attribute.MvxSource;
+			global::Miyu.MvxPlugins.TextSelection.Droid.Resource.Attribute.MvxTemplate = global::Miyu.MvxPlugins.TextSelection.Sample.Droid.Resource.Attribute.MvxTemplate;
+			global::Miyu.MvxPlugins.TextSelection.Droid.Resource.Id.MvvmCrossTagId = global::Miyu.MvxPlugins.TextSelection.Sample.Droid.Resource.Id.MvvmCrossTagId;
+			global::Miyu.MvxPlugins.TextSelection.Droid.Resource.Id.MvxBindingTagUnique = global::Miyu.MvxPlugins.TextSelection.Sample.Droid.Resource.Id.MvxBindingTagUnique;
+			global::Miyu.MvxPlugins.TextSelection.Droid.Resource.String.library_name = global::Miyu.MvxPlugins.TextSelection.Sample.Droid.Resource.String.library_name;
+			global::Miyu.MvxPlugins.TextSelection.Droid.Resource.Styleable.MvxBinding = global::Miyu.MvxPlugins.TextSelection.Sample.Droid.Resource.Styleable.MvxBinding;
+			global::Miyu.MvxPlugins.TextSelection.Droid.Resource.Styleable.MvxBinding_MvxBind = global::Miyu.MvxPlugins.TextSelection.Sample.Droid.Resource.Styleable.MvxBinding_MvxBind;
+			global::Miyu.MvxPlugins.TextSelection.Droid.Resource.Styleable.MvxBinding_MvxLang = global::Miyu.MvxPlugins.TextSelection.Sample.Droid.Resource.Styleable.MvxBinding_MvxLang;
+			global::Miyu.MvxPlugins.TextSelection.Droid.Resource.Styleable.MvxControl = global::Miyu.MvxPlugins.TextSelection.Sample.Droid.Resource.Styleable.MvxControl;
+			global::Miyu.MvxPlugins.TextSelection.Droid.Resource.Styleable.MvxControl_MvxTemplate = global::Miyu.MvxPlugins.TextSelection.Sample.Droid.Resource.Styleable.MvxControl_MvxTemplate;
+			global::Miyu.MvxPlugins.TextSelection.Droid.Resource.Styleable.MvxExpandableListView = global::Miyu.MvxPlugins.TextSelection.Sample.Droid.Resource.Styleable.MvxExpandableListView;
+			global::Miyu.MvxPlugins.TextSelection.Droid.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate = global::Miyu.MvxPlugins.TextSelection.Sample.Droid.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate;
+			global::Miyu.MvxPlugins.TextSelection.Droid.Resource.Styleable.MvxImageView = global::Miyu.MvxPlugins.TextSelection.Sample.Droid.Resource.Styleable.MvxImageView;
+			global::Miyu.MvxPlugins.TextSelection.Droid.Resource.Styleable.MvxImageView_MvxSource = global::Miyu.MvxPlugins.TextSelection.Sample.Droid.Resource.Styleable.MvxImageView_MvxSource;
+			global::Miyu.MvxPlugins.TextSelection.Droid.Resource.Styleable.MvxListView = global::Miyu.MvxPlugins.TextSelection.Sample.Droid.Resource.Styleable.MvxListView;
+			global::Miyu.MvxPlugins.TextSelection.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate = global::Miyu.MvxPlugins.TextSelection.Sample.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate;
+			global::Miyu.MvxPlugins.TextSelection.Droid.Resource.Styleable.MvxListView_MvxItemTemplate = global::Miyu.MvxPlugins.TextSelection.Sample.Droid.Resource.Styleable.MvxListView_MvxItemTemplate;
+			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxBind = global::Miyu.MvxPlugins.TextSelection.Sample.Droid.Resource.Attribute.MvxBind;
+			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxDropDownItemTemplate = global::Miyu.MvxPlugins.TextSelection.Sample.Droid.Resource.Attribute.MvxDropDownItemTemplate;
+			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxGroupItemTemplate = global::Miyu.MvxPlugins.TextSelection.Sample.Droid.Resource.Attribute.MvxGroupItemTemplate;
+			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxItemTemplate = global::Miyu.MvxPlugins.TextSelection.Sample.Droid.Resource.Attribute.MvxItemTemplate;
+			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxLang = global::Miyu.MvxPlugins.TextSelection.Sample.Droid.Resource.Attribute.MvxLang;
+			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxSource = global::Miyu.MvxPlugins.TextSelection.Sample.Droid.Resource.Attribute.MvxSource;
+			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxTemplate = global::Miyu.MvxPlugins.TextSelection.Sample.Droid.Resource.Attribute.MvxTemplate;
+			global::MvvmCross.Binding.Droid.Resource.Id.MvvmCrossTagId = global::Miyu.MvxPlugins.TextSelection.Sample.Droid.Resource.Id.MvvmCrossTagId;
+			global::MvvmCross.Binding.Droid.Resource.Id.MvxBindingTagUnique = global::Miyu.MvxPlugins.TextSelection.Sample.Droid.Resource.Id.MvxBindingTagUnique;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxBinding = global::Miyu.MvxPlugins.TextSelection.Sample.Droid.Resource.Styleable.MvxBinding;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxBinding_MvxBind = global::Miyu.MvxPlugins.TextSelection.Sample.Droid.Resource.Styleable.MvxBinding_MvxBind;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxBinding_MvxLang = global::Miyu.MvxPlugins.TextSelection.Sample.Droid.Resource.Styleable.MvxBinding_MvxLang;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxControl = global::Miyu.MvxPlugins.TextSelection.Sample.Droid.Resource.Styleable.MvxControl;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxControl_MvxTemplate = global::Miyu.MvxPlugins.TextSelection.Sample.Droid.Resource.Styleable.MvxControl_MvxTemplate;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxExpandableListView = global::Miyu.MvxPlugins.TextSelection.Sample.Droid.Resource.Styleable.MvxExpandableListView;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate = global::Miyu.MvxPlugins.TextSelection.Sample.Droid.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxImageView = global::Miyu.MvxPlugins.TextSelection.Sample.Droid.Resource.Styleable.MvxImageView;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxImageView_MvxSource = global::Miyu.MvxPlugins.TextSelection.Sample.Droid.Resource.Styleable.MvxImageView_MvxSource;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxListView = global::Miyu.MvxPlugins.TextSelection.Sample.Droid.Resource.Styleable.MvxListView;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate = global::Miyu.MvxPlugins.TextSelection.Sample.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate;
+			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxListView_MvxItemTemplate = global::Miyu.MvxPlugins.TextSelection.Sample.Droid.Resource.Styleable.MvxListView_MvxItemTemplate;
 		}
 		
 		public partial class Attribute
@@ -156,11 +178,14 @@ namespace MvvmCross.Plugins.TextSelection.Sample.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f070001
-			public const int app_name = 2131165185;
+			// aapt resource value: 0x7f060002
+			public const int app_name = 2131099650;
 			
-			// aapt resource value: 0x7f070000
-			public const int hello = 2131165184;
+			// aapt resource value: 0x7f060001
+			public const int hello = 2131099649;
+			
+			// aapt resource value: 0x7f060000
+			public const int library_name = 2131099648;
 			
 			static String()
 			{
@@ -175,8 +200,8 @@ namespace MvvmCross.Plugins.TextSelection.Sample.Droid
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7f060000
-			public const int Theme_Splash = 2131099648;
+			// aapt resource value: 0x7f070000
+			public const int Theme_Splash = 2131165184;
 			
 			static Style()
 			{

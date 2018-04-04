@@ -9,7 +9,7 @@ using System;
 using System.CodeDom.Compiler;
 using UIKit;
 
-namespace MvvmCross.Plugins.TextSelection.Sample.iOS.Views
+namespace Miyu.MvxPlugins.TextSelection.Sample.iOS.Views
 {
     [Register ("MainView")]
     partial class MainView

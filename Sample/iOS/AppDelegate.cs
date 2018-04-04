@@ -4,7 +4,7 @@ using MvvmCross.Platform;
 using Foundation;
 using UIKit;
 
-namespace MvvmCross.Plugins.TextSelection.Sample.iOS
+namespace Miyu.MvxPlugins.TextSelection.Sample.iOS
 {
     [Register("AppDelegate")]
     public partial class AppDelegate : MvxApplicationDelegate

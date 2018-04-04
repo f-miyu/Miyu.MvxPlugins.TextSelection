@@ -2,12 +2,12 @@ using Foundation;
 using System;
 using UIKit;
 using MvvmCross.iOS.Views;
-using MvvmCross.Plugins.TextSelection.Sample.Core.ViewModels;
+using Miyu.MvxPlugins.TextSelection.Sample.Core.ViewModels;
 using MvvmCross.iOS.Views.Presenters.Attributes;
 using MvvmCross.Binding.BindingContext;
-using MvvmCross.Plugins.TextSelection.iOS.Binding;
+using Miyu.MvxPlugins.TextSelection.iOS.Binding;
 
-namespace MvvmCross.Plugins.TextSelection.Sample.iOS.Views
+namespace Miyu.MvxPlugins.TextSelection.Sample.iOS.Views
 {
     [MvxFromStoryboard]
     [MvxRootPresentation]

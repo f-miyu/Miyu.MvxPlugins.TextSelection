@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>Miyu.MvxPlugins.TextSelection</id>
+		<version>1.0.0</version>
+		<title>MvvmCross - TextSelection Plugin</title>
+		<authors>f-miyu</authors>
+		<owners>>f-miyu</owners>
+		<licenseUrl>https://github.com/f-miyu/Miyu.MvxPlugins.TextSelection/blob/master/LICENSE</licenseUrl>
+		<projectUrl>https://github.com/f-miyu/Miyu.MvxPlugins.TextSelection</projectUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>This package contains the 'TextSelection' plugin for MvvmCross</description>
+		<tags>mvvm mvvmcross cross xamarin android ios monodroid monotouch xamarin.android xamarin.ios plugin</tags>
+		<dependencies>
+		    <group>
+		        <dependency id="MvvmCross.Platform" version="5.7.0" />
+		    </group>
+			<group targetFramework ="MonoAndroid">
+			    <dependency id="MvvmCross.Binding" version="5.7.0" />
+		    </group>
+			<group targetFramework ="Xamarin.iOS">
+			    <dependency id="MvvmCross.Binding" version="5.7.0" />
+		    </group>
+		</dependencies>
+	</metadata>
+	<files>
+	    <!-- PCL -->
+		<file src="..\Library\Miyu.MvxPlugins.TextSelection\bin\Release\Miyu.MvxPlugins.TextSelection.*" target="lib/portable-net45+win+wpa81+wp80" />
+
+		<!-- dotnet -->
+		<file src="..\Library\Miyu.MvxPlugins.TextSelection\bin\Release\Miyu.MvxPlugins.TextSelection.*" target="lib/dotnet" />
+		
+		<!-- droid -->
+		<file src="..\Library\Miyu.MvxPlugins.TextSelection\bin\Release\Miyu.MvxPlugins.TextSelection.*" target="lib/MonoAndroid" />
+		<file src="..\Library\Miyu.MvxPlugins.TextSelection.Droid\bin\Release\Miyu.MvxPlugins.TextSelection.Droid.*" target="lib/MonoAndroid" />
+		<file src="BootstrapContent\TextSelectionPluginBootstrap.cs.pp" target="content/MonoAndroid/Bootstrap/TextSelectionPluginBootstrap.cs.pp" />
+
+		<!-- iOS -->
+		<file src="..\Library\Miyu.MvxPlugins.TextSelection\bin\Release\Miyu.MvxPlugins.TextSelection.*" target="lib/Xamarin.iOS10" />
+		<file src="..\Library\Miyu.MvxPlugins.TextSelection.iOS\bin\Release\Miyu.MvxPlugins.TextSelection.iOS.*" target="lib/Xamarin.iOS10" />
+		<file src="iOSBootstrapContent\TextSelectionPluginBootstrap.cs.pp" target="content/Xamarin.iOS10/Bootstrap/TextSelectionPluginBootstrap.cs.pp" />
+	</files>
+</package>

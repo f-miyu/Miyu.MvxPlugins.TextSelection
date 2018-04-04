@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
 using MvvmCross.Core.ViewModels;
 
-namespace MvvmCross.Plugins.TextSelection.Sample.Core.ViewModels
+namespace Miyu.MvxPlugins.TextSelection.Sample.Core.ViewModels
 {
     public class MainViewModel : MvxViewModel
     {

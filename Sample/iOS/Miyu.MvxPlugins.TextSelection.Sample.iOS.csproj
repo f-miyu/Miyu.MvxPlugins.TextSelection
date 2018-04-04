@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+        <ProjectGuid>{51982E03-0E49-4AD4-8C1F-79DFBBD9093D}</ProjectGuid>
+        <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+        <OutputType>Exe</OutputType>
+        <RootNamespace>Miyu.MvxPlugins.TextSelection.Sample.iOS</RootNamespace>
+        <AssemblyName>Miyu.MvxPlugins.TextSelection.Sample.iOS</AssemblyName>
+        <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>full</DebugType>
+        <Optimize>false</Optimize>
+        <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+        <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+        <CodesignKey>iPhone Developer</CodesignKey>
+        <MtouchDebug>true</MtouchDebug>
+        <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
+        <MtouchFastDev>true</MtouchFastDev>
+        <IOSDebuggerPort>23782</IOSDebuggerPort>
+        <MtouchLink>None</MtouchLink>
+        <MtouchArch>x86_64</MtouchArch>
+        <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+        <DeviceSpecificBuild>false</DeviceSpecificBuild>
+        <MtouchVerbosity>
+        </MtouchVerbosity>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+        <DebugType>pdbonly</DebugType>
+        <Optimize>true</Optimize>
+        <OutputPath>bin\iPhone\Release</OutputPath>
+        <DefineConstants>
+        </DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+        <CodesignKey>iPhone Developer</CodesignKey>
+        <MtouchFloat32>true</MtouchFloat32>
+        <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+        <MtouchLink>SdkOnly</MtouchLink>
+        <MtouchArch>ARM64</MtouchArch>
+        <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+        <MtouchVerbosity>
+        </MtouchVerbosity>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+        <DebugType>pdbonly</DebugType>
+        <Optimize>true</Optimize>
+        <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+        <DefineConstants>
+        </DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+        <CodesignKey>iPhone Developer</CodesignKey>
+        <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
+        <MtouchLink>None</MtouchLink>
+        <MtouchArch>x86_64</MtouchArch>
+        <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+        <MtouchVerbosity>
+        </MtouchVerbosity>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>full</DebugType>
+        <Optimize>false</Optimize>
+        <OutputPath>bin\iPhone\Debug</OutputPath>
+        <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+        <CodesignKey>iPhone Developer</CodesignKey>
+        <DeviceSpecificBuild>true</DeviceSpecificBuild>
+        <MtouchDebug>true</MtouchDebug>
+        <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
+        <MtouchFastDev>true</MtouchFastDev>
+        <MtouchFloat32>true</MtouchFloat32>
+        <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+        <IOSDebuggerPort>53471</IOSDebuggerPort>
+        <MtouchLink>SdkOnly</MtouchLink>
+        <MtouchArch>ARM64</MtouchArch>
+        <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+        <MtouchVerbosity>
+        </MtouchVerbosity>
+    </PropertyGroup>
+    <ItemGroup>
+        <Reference Include="System" />
+        <Reference Include="System.Xml" />
+        <Reference Include="System.Core" />
+        <Reference Include="Xamarin.iOS" />
+        <Reference Include="MvvmCross.Platform">
+            <HintPath>..\..\packages\MvvmCross.Platform.5.7.0\lib\Xamarin.iOS10\MvvmCross.Platform.dll</HintPath>
+        </Reference>
+        <Reference Include="MvvmCross.Platform.iOS">
+            <HintPath>..\..\packages\MvvmCross.Platform.5.7.0\lib\Xamarin.iOS10\MvvmCross.Platform.iOS.dll</HintPath>
+        </Reference>
+        <Reference Include="MvvmCross.Core">
+            <HintPath>..\..\packages\MvvmCross.Core.5.7.0\lib\Xamarin.iOS10\MvvmCross.Core.dll</HintPath>
+        </Reference>
+        <Reference Include="MvvmCross.iOS">
+            <HintPath>..\..\packages\MvvmCross.Core.5.7.0\lib\Xamarin.iOS10\MvvmCross.iOS.dll</HintPath>
+        </Reference>
+        <Reference Include="MvvmCross.Binding">
+            <HintPath>..\..\packages\MvvmCross.Binding.5.7.0\lib\Xamarin.iOS10\MvvmCross.Binding.dll</HintPath>
+        </Reference>
+        <Reference Include="MvvmCross.Binding.iOS">
+            <HintPath>..\..\packages\MvvmCross.Binding.5.7.0\lib\Xamarin.iOS10\MvvmCross.Binding.iOS.dll</HintPath>
+        </Reference>
+        <Reference Include="MvvmCross.Localization">
+            <HintPath>..\..\packages\MvvmCross.Binding.5.7.0\lib\Xamarin.iOS10\MvvmCross.Localization.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+    <ItemGroup>
+        <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
+        <ImageAsset Include="Assets.xcassets\Contents.json" />
+    </ItemGroup>
+    <ItemGroup>
+        <Folder Include="Resources\" />
+        <Folder Include="Views\" />
+    </ItemGroup>
+    <ItemGroup>
+        <InterfaceDefinition Include="LaunchScreen.storyboard" />
+        <InterfaceDefinition Include="Views\MainView.storyboard" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="Info.plist" />
+        <None Include="Entitlements.plist" />
+        <None Include="packages.config" />
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Include="Main.cs" />
+        <Compile Include="AppDelegate.cs" />
+        <Compile Include="Setup.cs" />
+        <Compile Include="LinkerPleaseInclude.cs" />
+        <Compile Include="DebugTrace.cs" />
+        <Compile Include="Views\MainView.cs" />
+        <Compile Include="Views\MainView.designer.cs">
+            <DependentUpon>MainView.cs</DependentUpon>
+        </Compile>
+        <Compile Include="Bootstrap\TextSelectionPluginBootstrap.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Core\Miyu.MvxPlugins.TextSelection.Sample.Core.csproj">
+        <Project>{01D14F64-01F9-4988-94D8-1F0C61DB7A59}</Project>
+        <Name>Miyu.MvxPlugins.TextSelection.Sample.Core</Name>
+      </ProjectReference>
+      <ProjectReference Include="..\..\Library\Miyu.MvxPlugins.TextSelection\Miyu.MvxPlugins.TextSelection.csproj">
+        <Project>{1B3D2EBD-9194-47E3-81DB-428EC26C19F4}</Project>
+        <Name>Miyu.MvxPlugins.TextSelection</Name>
+      </ProjectReference>
+      <ProjectReference Include="..\..\Library\Miyu.MvxPlugins.TextSelection.iOS\Miyu.MvxPlugins.TextSelection.iOS.csproj">
+        <Project>{17537EA9-B2CE-4B38-9071-9768C334C02A}</Project>
+        <Name>Miyu.MvxPlugins.TextSelection.iOS</Name>
+      </ProjectReference>
+    </ItemGroup>
+    <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+</Project>

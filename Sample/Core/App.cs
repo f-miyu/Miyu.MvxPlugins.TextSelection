@@ -1,6 +1,6 @@
 using MvvmCross.Platform.IoC;
 
-namespace MvvmCross.Plugins.TextSelection.Sample.Core
+namespace Miyu.MvxPlugins.TextSelection.Sample.Core
 {
     public class App : MvvmCross.Core.ViewModels.MvxApplication
     {
@@ -11,7 +11,7 @@ namespace MvvmCross.Plugins.TextSelection.Sample.Core
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
 
-            RegisterNavigationServiceAppStart<ViewModels.MainViewModel>();
+            RegisterAppStart<ViewModels.MainViewModel>();
         }
     }
 }

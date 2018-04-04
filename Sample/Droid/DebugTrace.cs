@@ -2,7 +2,7 @@ using System;
 using System.Diagnostics;
 using MvvmCross.Platform.Platform;
 
-namespace MvvmCross.Plugins.TextSelection.Sample.Droid
+namespace Miyu.MvxPlugins.TextSelection.Sample.Droid
 {
     public class DebugTrace : IMvxTrace
     {

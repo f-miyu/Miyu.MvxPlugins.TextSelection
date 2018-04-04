@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace MvvmCross.Plugins.TextSelection.Sample.iOS
+namespace Miyu.MvxPlugins.TextSelection.Sample.iOS
 {
     public class Application
     {

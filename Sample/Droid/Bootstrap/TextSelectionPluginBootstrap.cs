@@ -1,7 +1,9 @@
-﻿using System;
 using MvvmCross.Platform.Plugins;
-namespace MvvmCross.Plugins.TextSelection.Sample.Droid.Bootstrap
+
+namespace Miyu.MvxPlugins.TextSelection.Sample.Droid.Bootstrap
 {
-    public class TextSelectionPluginBootstrap : MvxPluginBootstrapAction<MvvmCross.Plugins.TextSelection.PluginLoader>
-    { }
+    public class TextSelectionPluginBootstrap
+        : MvxPluginBootstrapAction<Miyu.MvxPlugins.TextSelection.PluginLoader>
+    {
+    }
 }

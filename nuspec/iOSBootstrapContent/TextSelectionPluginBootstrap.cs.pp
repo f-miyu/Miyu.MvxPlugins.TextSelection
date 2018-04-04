@@ -3,7 +3,7 @@ using MvvmCross.Platform.Plugins;
 namespace $rootnamespace$.Bootstrap
 {
     public class TextSelectionPluginBootstrap
-        : MvxLoaderPluginBootstrapAction<MvvmCross.Plugins.TextSelection.PluginLoader, MvvmCross.Plugins.TextSelection.iOS.Plugin>
+        : MvxLoaderPluginBootstrapAction<Miyu.MvxPlugins.TextSelection.PluginLoader, Miyu.MvxPlugins.TextSelection.iOS.Plugin>
     {
     }
 }

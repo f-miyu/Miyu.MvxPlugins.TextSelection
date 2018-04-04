@@ -4,9 +4,9 @@ using MvvmCross.Core.ViewModels;
 using MvvmCross.Platform.Platform;
 using System.Collections.Generic;
 using System.Reflection;
-using MvvmCross.Plugins.TextSelection.Droid;
+using Miyu.MvxPlugins.TextSelection.Droid;
 
-namespace MvvmCross.Plugins.TextSelection.Sample.Droid
+namespace Miyu.MvxPlugins.TextSelection.Sample.Droid
 {
     public class Setup : MvxAndroidSetup
     {

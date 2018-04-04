@@ -1,8 +1,9 @@
-﻿using MvvmCross.Platform.Plugins;
+using MvvmCross.Platform.Plugins;
 
-namespace MvvmCross.Plugins.TextSelection.Sample.iOS.Bootstrap
+namespace Miyu.MvxPlugins.TextSelection.Sample.iOS.Bootstrap
 {
     public class TextSelectionPluginBootstrap
-        : MvxLoaderPluginBootstrapAction<MvvmCross.Plugins.TextSelection.PluginLoader, MvvmCross.Plugins.TextSelection.iOS.Plugin>
-    { }
+        : MvxLoaderPluginBootstrapAction<Miyu.MvxPlugins.TextSelection.PluginLoader, Miyu.MvxPlugins.TextSelection.iOS.Plugin>
+    {
+    }
 }

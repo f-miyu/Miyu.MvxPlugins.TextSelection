@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.MvvmCross_Plugins_TextSelection_Sample">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.Miyu_MvxPlugins_TextSelection_Sample">
     <uses-sdk android:minSdkVersion="15" />
-    <application android:label="MvvmCross.Plugins.TextSelection.Sample">
+    <application android:label="Miyu.MvxPlugins.TextSelection.Sample">
     </application>
 </manifest>

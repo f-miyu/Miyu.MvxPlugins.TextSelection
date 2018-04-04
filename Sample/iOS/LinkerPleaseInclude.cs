@@ -8,7 +8,7 @@ using MvvmCross.Core.Navigation;
 using MvvmCross.Core.ViewModels;
 using UIKit;
 
-namespace MvvmCross.Plugins.TextSelection.Sample.iOS
+namespace Miyu.MvxPlugins.TextSelection.Sample.iOS
 {
     // This class is never actually executed, but when Xamarin linking is enabled it does ensure types and properties
     // are preserved in the deployed app

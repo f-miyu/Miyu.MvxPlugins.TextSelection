@@ -2,10 +2,10 @@ using Android.App;
 using Android.Content.PM;
 using MvvmCross.Droid.Views;
 
-namespace MvvmCross.Plugins.TextSelection.Sample.Droid
+namespace Miyu.MvxPlugins.TextSelection.Sample.Droid
 {
     [Activity(
-        Label = "MvvmCross.Plugins.TextSelection.Sample.Droid"
+        Label = "Miyu.MvxPlugins.TextSelection.Sample.Droid"
         , MainLauncher = true
         , Icon = "@mipmap/icon"
         , Theme = "@style/Theme.Splash"

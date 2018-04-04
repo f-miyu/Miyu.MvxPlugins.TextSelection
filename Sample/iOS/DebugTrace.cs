@@ -2,7 +2,7 @@ using System;
 using System.Diagnostics;
 using MvvmCross.Platform.Platform;
 
-namespace MvvmCross.Plugins.TextSelection.Sample.iOS
+namespace Miyu.MvxPlugins.TextSelection.Sample.iOS
 {
     public class DebugTrace : IMvxTrace
     {

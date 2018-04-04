@@ -2,7 +2,7 @@ using Android.App;
 using Android.OS;
 using MvvmCross.Droid.Views;
 
-namespace MvvmCross.Plugins.TextSelection.Sample.Droid.Views
+namespace Miyu.MvxPlugins.TextSelection.Sample.Droid.Views
 {
     [Activity(Label = "View for MainViewModel")]
     public class MainView : MvxActivity
