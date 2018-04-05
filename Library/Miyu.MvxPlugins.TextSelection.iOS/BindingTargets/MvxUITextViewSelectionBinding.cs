@@ -18,7 +18,7 @@ namespace Miyu.MvxPlugins.TextSelection.iOS.BindingTargets
 
         public override void SubscribeToEvents()
         {
-            _subscription = Target.WeakSubscribe<UITextView>(nameof(Target.Changed), UITextViewOnSelectionChanged);
+            _subscription = Target.WeakSubscribe<UITextView>(nameof(Target.SelectionChanged), UITextViewOnSelectionChanged);
         }
 
         protected override void SetValueImpl(UITextView target, int value)
